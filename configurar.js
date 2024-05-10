@@ -2,17 +2,17 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //configurar dono
-global.numerodono = "263784932864"
-global.nomedono = "Makino"
-global.nomebot = 'Makino' 
+global.numerodono = "2348022159244"
+global.nomedono = "Mofe"
+global.nomebot = 'mofe' 
 global.ytvenom = "YT: https://youtube.com"
-global.prefixo = ","
+global.prefixo = "!"
 global.instavenom = "INSTA: instagram.com"
-global.local = "Brasil, AM, SP"
+global.local = "Nigeria, lagos, Abuja"
 
 //pacote de figurinhas 
-global.packnome = ''
-global.author = ''
+global.packnome = 'Antisocial Humidity'
+global.author = '🔥🦊'
 
 //false= desativado e true= ativado
 global.autoGravar = false //gravação automática
