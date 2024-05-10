@@ -28,4 +28,3 @@ function start() {
       })
 }
 //start() 
-Taira
