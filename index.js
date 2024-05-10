@@ -9,7 +9,7 @@ const {
 const path = require('path')
 
 function start() {
-   let args = [path.join(__dirname, 'conexão.js'), ...process.argv.slice(2)]
+   let args = [path.join(__dirname, 'main.js'), ...process.argv.slice(2)]
    console.log([process.argv[0], ...args].join('\n'))
    let p = spawn(process.argv[0], args, {
          stdio: ['inherit', 'inherit', 'inherit', 'ipc']
@@ -23,8 +23,8 @@ function start() {
          }
       })
       .on('exit', code => {
-         console.error('Closed,reason is:', code)
+         console.error('Exited with code:', code)
          if (code == '.' || code == 1 || code == 0) start()
       })
 }
-//start() 
+start()
